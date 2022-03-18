@@ -21,4 +21,4 @@ Optamos por usar cores neutras (Branco #FFFF, Bege #FAFAFA e um tom de preto #10
 
 **Estrutura do projeto**
 
-![estrutura](https://user-images.githubusercontent.com/87493055/158915390-16f26961-79e1-4ee3-a89e-dda483c699e4.png)
+![estrutura](https://user-images.githubusercontent.com/87493055/158915608-ac75faca-2cea-4ef3-8707-17e9e56350e9.png)
