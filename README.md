@@ -1,5 +1,6 @@
-#Projeto Maze
-##Por Lucas Felipe e Yan Oliveira
+# Projeto Maze
+
+## Por Lucas Felipe e Yan Oliveira
 
 **Assunto**
 Nossa cultura e estilo de vida são determinantes na forma como vemos o mundo, e também como o mundo nos vê; pensando nisso, decidimos criar uma loja virtual, mais especificamente um aplicativo, para que possamos comercializar roupas, e principalmente peças e artigos para Skate. 
