@@ -4,7 +4,7 @@
 
 **Assunto**
 
-Nossa cultura e estilo de vida são determinantes na forma como vemos o mundo, e também como o mundo nos vê; pensando nisso, decidimos criar uma loja virtual, mais especificamente um aplicativo, para que possamos comercializar roupas, e principalmente peças e artigos para Skate. 
+Nossa cultura e estilo de vida são determinantes na forma como vemos o mundo, e também como o mundo nos vê; pensando nisso, decidimos criar uma loja virtual, mais especificamente um aplicativo, para que possamos comercializar peças e artigos para Skate. 
 Muito presente em nossas vidas, o estilo StreetWear não é só uma forma de se vestir, mas sim um estilo de vida, com as raízes voltadas para a cultura de rua, o Rap e, principalmente, o Skate. 
 Uma cultura que tem expandido cada vez mais ano após ano, e que deixou de ser algo Underground para se tornar Mainstream, principalmente com a inclusão do esporte nas Olimípias de Tóquio e a exposição midiática que o esporte teve após tanto sucesso nos jogos Olímpicos.
 Uma cultura que já foi muito marginalizada num passado não tão distante, hoje em dia se tornou popular e vem cada vez mais tomando espaços que antes não o haviam, e atraindo cada vez mais a atenção de jovens e crianças.
@@ -19,4 +19,6 @@ Fizemos um wireframe mostrando o passo-a-passo do usuário no nosso aplicativo, 
 
 Optamos por usar cores neutras (Branco #FFFF, Bege #FAFAFA e um tom de preto #100F0F, além de tons terrosos como o marrom #7C5E5E).
 
-Sobre nossa estrutura, ainda não trabalhamos essa parte. Primeiro decidimos reproduzir nossa identidade visual, pensar em nossas telas e o direcionamento de cada uma delas, além do tema do nosso projeto e a inspiração de nossas ideias.   
+**Estrutura do projeto**
+
+![estrutura](https://user-images.githubusercontent.com/87493055/158915390-16f26961-79e1-4ee3-a89e-dda483c699e4.png)
