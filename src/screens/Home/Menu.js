@@ -9,26 +9,26 @@ export default function Home({navigation}) {
       <View style={{flexDirection:"row", backgroundColor: "black"}}>
       <Button
         
-        title = "Shapes  "
+        title =  "  Shapes  "
         color="black"
         onPress = { () =>
           navigation.navigate('Shape')}
           />
         <Button
         
-        title = " Trucks "
+        title = " Trucks  "
         color="black"
         onPress = { () =>
           navigation.navigate('Trucks')}
         />
       <Button
-        title = "Rodas"
+        title = "  Rodas  "
         color="black"
         onPress = { () =>
           navigation.navigate('Rodas')}
          />
          <Button
-        title = "Login"
+        title = "  Login  "
         color="black"
         onPress = { () =>
           navigation.navigate('Login')}
