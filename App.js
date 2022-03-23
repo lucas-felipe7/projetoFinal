@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import Home from './src/screens/Home/Menu';
+import Home from './src/screens/Menu/Menu';
 import Shape from './src/screens/Shapes/Shapes';
 import Trucks from './src/screens/Trucks/Trucks';
 import Rodas from './src/screens/Rodas/Wheels';
