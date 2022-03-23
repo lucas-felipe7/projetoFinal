@@ -15,11 +15,22 @@ export default function Trucks({navigation}) {
       <ScrollView style={[styles.scrollView,]}>
         <View style={{flexDirection:"column", backgroundColor:'#fff'}}>
           <Text style={{fontSize:29, color:"#000000", paddingLeft:100}}>TRUCKS</Text>
+          <Separator/>
+          <Text style={{fontSize:19, color:"#000000", paddingLeft:100}}>Tamanhos</Text>
+          <View style={{flexDirection:"column", backgroundColor:'#fff'}}>
+          <Text style={{fontSize:13, color:"#000000", }}>Trucks de 129mm – Para shapes com a de largura de 7.5” a 8.0” polegadas.</Text>
+          <Text style={{fontSize:13, color:"#000000", }}>Trucks de 139mm – Para shapes com largura de 8.0” a 8.2” polegadas.</Text>
+          <Text style={{fontSize:13, color:"#000000", }}>Trucks de 149mm – Para shapes com largura de 8.2” a 8.5” polegadas.</Text>
+          <Text style={{fontSize:13, color:"#000000", }}>Trucks de 159mm – Para shapes com largura de 8.5” a 9.0” polegadas.</Text>
+
+          </View>
           <View style={{flexDirection:'row', paddingTop:42, paddingLeft:0, paddingRight:2 }}>
-            <Image source={require('../../media/assets/images/in.jpeg')} style={{ width: 80, height: 70, }}/>
-            <Image source={require('.../../media/assets/images/ve.png')} style={{ width: 80, height: 70, }}/>
-            <Image source={require('../../media/assets/images/ro.png')} style={{ width: 80, height: 70, }}/>
-            <Image source={require('../../media/assets/images/thu.jpg')} style={{ width: 80, height: 70, }}/>
+            <Image source={require('../../media/assets/images/in.jpeg')} style={{ width: 65, height: 70, }}/>
+            <Image source={require('.../../media/assets/images/ve.png')} style={{ width: 65, height: 70, }}/>
+            <Image source={require('../../media/assets/images/ro.png')} style={{ width: 65, height: 70, }}/>
+            <Image source={require('../../media/assets/images/thu.jpg')} style={{ width: 65, height: 70, }}/>
+            <Image source={require('../../media/assets/images/si.jpg')} style={{ width: 65, height: 70, }}/>
+
           </View>
           <Separator/>
           <View style={{flexDirection: "column", backgroundColor:"#fff" }} >
