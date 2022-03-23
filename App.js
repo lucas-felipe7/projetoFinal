@@ -16,7 +16,7 @@ const Stack = createNativeStackNavigator();
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName={Home}>
+      <Stack.Navigator initialRouteName={"Home"}>
         <Stack.Screen name="Home" component={Home} options={{ title: 'Maze', headerStyle: {backgroundColor: '#000000',
         headerTitle: (props) => <LogoTitle {...props} />,}, headerTintColor: '#fff', headerTitleStyle: {fontWeight: 'bold',},
        }} /> 
