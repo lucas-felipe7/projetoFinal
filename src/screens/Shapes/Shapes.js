@@ -71,7 +71,7 @@ export default function Shape({ navigation }) {
             <Separator />
 
             <View style={{ flexDirection: 'column', paddingTop: "10%", justifyContent: "center", alignItems: "center" }}>
-              <Image source={require('../../media/assets/images/pri.jpg')} style={{ width: 240, height: 320, }} />
+              <Image source={require('../../media/assets/images/pri.jpg')} style={{ width: 175, height: 320, }} />
               <Text style={{ fontSize: 16, color: 'black', fontWeight: "600" }}>SHAPE PRIMITIVE TAMANHO 8.25</Text>
               <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold' }}>R$ 550,00</Text>
               <Button title="Comprar" color="black"
