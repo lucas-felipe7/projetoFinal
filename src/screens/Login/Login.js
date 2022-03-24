@@ -20,7 +20,7 @@ export default function Login({navigation}) {
       <ScrollView style={styles.scrollView}>
       <View style={[styles.inicio,{ flex:1,}]}>
         <Image
-        source={require('/../../media/assets/images/mazelog.png')}
+        source={require('../../media/assets/images/mazelog.png')}
         style={{  width: 280, height: 100,}}
         />  
       </View>
