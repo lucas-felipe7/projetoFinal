@@ -7,7 +7,7 @@ export default function Shape({ navigation }) {
   );
   return (
     <View style={{ flexDirection: "column", backgroundColor: "#fff" }}>
-      <StatusBar barStyle="dark-content" hidden={true} backgroundColor="black" />
+      <StatusBar barStyle="dark-content" hidden={true} />
 
       <SafeAreaView>
         <ScrollView style={[styles.scrollView,]}>
@@ -20,7 +20,7 @@ export default function Shape({ navigation }) {
             <View style={{ flexDirection: 'column', paddingTop: "10%", justifyContent: "center", alignItems: "center" }}>
               <Image source={require('../../media/assets/images/dgk.jpg')} style={{ width: 300, height: 300, paddingTop: 22 }} />
               <Text style={{ fontSize: 16, color: 'black', fontWeight: "600" }}>SHAPE DGK TAMANHO 8.0</Text>
-              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold' }}>R$ 350,00</Text>
+              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 5 }}>R$ 350,00</Text>
               <Button title="Comprar" color="black"
                 onPress={() => Alert.alert('OUT OF STOCK')}
               />
@@ -31,7 +31,7 @@ export default function Shape({ navigation }) {
             <View style={{ flexDirection: 'column', paddingTop: "10%", justifyContent: "center", alignItems: "center" }}>
               <Image source={require('../../media/assets/images/creature.webp')} style={{ width: 250, height: 300, }} />
               <Text style={{ fontSize: 16, color: 'black', fontWeight: "600" }}>SHAPE CREATURE TAMANHO 8.5 </Text>
-              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold' }}>R$ 390,00</Text>
+              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 5 }}>R$ 390,00</Text>
               <Button title="Comprar" color="black"
                 onPress={() => Alert.alert('OUT OF STOCK')}
               />
@@ -42,7 +42,7 @@ export default function Shape({ navigation }) {
             <View style={{ flexDirection: 'column', paddingTop: "10%", justifyContent: "center", alignItems: "center" }}>
               <Image source={require('../../media/assets/images/flip.jpg')} style={{ width: 250, height: 300, }} />
               <Text style={{ fontSize: 16, color: 'black', fontWeight: "600" }}>SHAPE FLIP TAMANHO 8.1</Text>
-              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold' }}>R$ 490,00</Text>
+              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 5 }}>R$ 490,00</Text>
               <Button title="Comprar" color="black"
                 onPress={() => Alert.alert('OUT OF STOCK')}
               />
@@ -52,7 +52,7 @@ export default function Shape({ navigation }) {
             <View style={{ flexDirection: 'column', paddingTop: "10%", justifyContent: "center", alignItems: "center" }}>
               <Image source={require('../../media/assets/images/plan.jpg')} style={{ width: 150, height: 300, }} />
               <Text style={{ fontSize: 16, color: 'black', fontWeight: "600" }}>SHAPE PLANB TAMANHO 7.8</Text>
-              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold' }}>R$ 550,00</Text>
+              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 5 }}>R$ 550,00</Text>
               <Button title="Comprar" color="black"
                 onPress={() => Alert.alert('OUT OF STOCK')}
               />
@@ -63,7 +63,7 @@ export default function Shape({ navigation }) {
             <View style={{ flexDirection: 'column', paddingTop: "10%", justifyContent: "center", alignItems: "center" }}>
               <Image source={require('../../media/assets/images/girl.jpg')} style={{ width: 240, height: 320 }} />
               <Text style={{ fontSize: 16, color: 'black', fontWeight: "600" }}>SHAPE TOY MACHINE TAMANHO 8.2</Text>
-              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold' }}>R$ 400,00</Text>
+              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 5 }}>R$ 400,00</Text>
               <Button title="Comprar" color="black"
                 onPress={() => Alert.alert('OUT OF STOCK')}
               />
@@ -73,7 +73,7 @@ export default function Shape({ navigation }) {
             <View style={{ flexDirection: 'column', paddingTop: "10%", justifyContent: "center", alignItems: "center" }}>
               <Image source={require('../../media/assets/images/pri.jpg')} style={{ width: 175, height: 320, }} />
               <Text style={{ fontSize: 16, color: 'black', fontWeight: "600" }}>SHAPE PRIMITIVE TAMANHO 8.25</Text>
-              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold' }}>R$ 550,00</Text>
+              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 5 }}>R$ 550,00</Text>
               <Button title="Comprar" color="black"
                 onPress={() => Alert.alert('OUT OF STOCK')}
               />

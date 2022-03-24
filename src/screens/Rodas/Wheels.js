@@ -9,7 +9,7 @@ export default function Rodas({ navigation }) {
   );
   return (
     <View style={{ flexDirection: "column", backgroundColor: "#fff" }}>
-      <StatusBar barStyle="dark-content" hidden={true} backgroundColor="black" />
+      <StatusBar barStyle="dark-content" hidden={true}/>
 
       <SafeAreaView>
         <ScrollView style={[styles.scrollView,]}>
@@ -27,7 +27,7 @@ export default function Rodas({ navigation }) {
             <View style={{ flexDirection: "column", backgroundColor: "#fff", justifyContent: 'center', alignItems: 'center' }} >
               <Image source={require('../../media/assets/images/bone.jpg')} style={{ width: 300, height: 250, }} />
               <Text style={{ fontSize: 16, color: 'black', textAlign: 'center', fontWeight: '600' }}>Rodas Bones STF Raybourn Choose 55mm 4PK V5</Text>
-              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 4 }}>R$ 500,00</Text>
+              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 5 }}>R$ 500,00</Text>
               <Button title="Comprar" color="black"
                 onPress={() => Alert.alert('Fora do estoque')}
               />
@@ -36,7 +36,7 @@ export default function Rodas({ navigation }) {
             <View style={{ flexDirection: "column", backgroundColor: "#fff", paddingTop: 22, justifyContent: 'center', alignItems: 'center' }} >
               <Image source={require('../../media/assets/images/ro.jpg')} style={{ width: 310, height: 280, }} />
               <Text style={{ fontSize: 16, color: 'black', textAlign: 'center', fontWeight: '600' }}>Roda Bones Easy Streets 54mm V5 Branca </Text>
-              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 4 }}>R$ 520,00</Text>
+              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 5 }}>R$ 520,00</Text>
               <Button title="Comprar" color="black"
                 onPress={() => Alert.alert('Fora do estoque')}
               />
@@ -45,7 +45,7 @@ export default function Rodas({ navigation }) {
             <View style={{ flexDirection: "column", backgroundColor: "#fff", paddingTop: 22, justifyContent: 'center', alignItems: 'center' }} >
               <Image source={require('../../media/assets/images/oj.jpg')} style={{ width: 250, height: 250, }} />
               <Text style={{ fontSize: 16, color: 'black', textAlign: 'center', fontWeight: '600' }}>Rodas OJ Elite Wheels Elite Hard line White – 53mm 99a </Text>
-              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 4 }}>R$ 380,00</Text>
+              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 5 }}>R$ 380,00</Text>
               <Button title="Comprar" color="black"
                 onPress={() => Alert.alert('Fora do estoque')}
               />
@@ -54,7 +54,7 @@ export default function Rodas({ navigation }) {
             <View style={{ flexDirection: "column", backgroundColor: "#fff", paddingTop: 22, justifyContent: 'center', alignItems: 'center' }} >
               <Image source={require('../../media/assets/images/ri.jpg')} style={{ width: 250, height: 250, }} />
               <Text style={{ fontSize: 16, color: 'black', textAlign: 'center', fontWeight: '600' }}>Rodas Ricta Elite - 52mm </Text>
-              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 4 }}>R$ 399,00</Text>
+              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 5 }}>R$ 399,00</Text>
               <Button title="Comprar" color="black"
                 onPress={() => Alert.alert('Fora do estoque')}
               />
@@ -63,7 +63,7 @@ export default function Rodas({ navigation }) {
             <View style={{ flexDirection: "column", backgroundColor: "#fff", paddingTop: 22, justifyContent: 'center', alignItems: 'center' }} >
               <Image source={require('../../media/assets/images/rod.jpg')} style={{ width: 310, height: 280, }} />
               <Text style={{ fontSize: 16, color: 'black', textAlign: 'center', fontWeight: '600' }}>Rodas Bones 56mm </Text>
-              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 4 }}>R$ 549,00</Text>
+              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 5 }}>R$ 549,00</Text>
               <Button title="Comprar" color="black"
                 onPress={() => Alert.alert('Fora do estoque')}
               />
@@ -72,7 +72,7 @@ export default function Rodas({ navigation }) {
             <View style={{ flexDirection: "column", backgroundColor: "#fff", paddingTop: 22, justifyContent: 'center', alignItems: 'center' }} >
               <Image source={require('../../media/assets/images/nes.jpg')} style={{ width: 240, height: 240, }} />
               <Text style={{ fontSize: 16, color: 'black', textAlign: 'center', fontWeight: '600' }}>Roda Bones STF Blazers V1</Text>
-              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 4 }}>R$ 499,00</Text>
+              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 5 }}>R$ 499,00</Text>
               <Button title="Comprar" color="black"
                 onPress={() => Alert.alert('Fora do estoque')}
               />
@@ -81,7 +81,7 @@ export default function Rodas({ navigation }) {
             <View style={{ flexDirection: "column", backgroundColor: "#fff", paddingTop: 22, justifyContent: 'center', alignItems: 'center' }} >
               <Image source={require('../../media/assets/images/spi.jpg')} style={{ width: 310, height: 300, }} />
               <Text style={{ fontSize: 16, color: 'black', textAlign: 'center', fontWeight: '600' }}>Roda Spitfire 53mm</Text>
-              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 4 }}>R$ 379,00</Text>
+              <Text style={{ fontSize: 16, color: 'black', paddingTop: 10, fontWeight: 'bold', padding: 5 }}>R$ 379,00</Text>
               <Button title="Comprar" color="black"
                 onPress={() => Alert.alert('Fora do estoque')}
               />

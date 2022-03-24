@@ -9,7 +9,7 @@ export default function Trucks({ navigation }) {
   );
   return (
     <View style={{ flexDirection: "column", backgroundColor: "#fff" }}>
-      <StatusBar barStyle="dark-content" hidden={true} backgroundColor="black" />
+      <StatusBar barStyle="dark-content" hidden={true} />
 
       <SafeAreaView>
         <ScrollView style={[styles.scrollView,]}>

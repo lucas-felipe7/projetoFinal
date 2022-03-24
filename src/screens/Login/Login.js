@@ -5,9 +5,9 @@ import { StyleSheet, Button, StatusBar, View, Text, Image, TextInput, SafeAreaVi
 
 export default function Login({ navigation }) {
   return (
-    <View style={[styles.container, { flexDirection: "column", }]}>
 
-      <StatusBar barStyle="dark-content" hidden={true} backgroundColor="#000000" />
+    <View style={[styles.container, { flexDirection: "column", }]}>
+      <StatusBar barStyle="dark-content" hidden={true}/>
 
       <SafeAreaView style={styles.container1}>
         <ScrollView style={styles.scrollView}>
@@ -23,7 +23,6 @@ export default function Login({ navigation }) {
               <TextInput
                 title="ola"
                 style={styles.input}
-                onChangeText={"Seu email"}
                 placeholder="Email:"
               />
               <Text style={{ paddingLeft: "65%", fontSize: 14, color: "#fff" }}>Esse é seu email?</Text>

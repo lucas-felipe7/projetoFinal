@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
@@ -17,9 +16,14 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName={"Home"}>
-        <Stack.Screen name="Home" component={Home} options={{ title: 'Maze', headerStyle: {backgroundColor: '#000000',
-        headerTitle: (props) => <LogoTitle {...props} />,}, headerTintColor: '#fff', headerTitleStyle: {fontWeight: 'bold',},
-       }} /> 
+        <Stack.Screen name="Home" component={Home} options={{
+          title: 'Maze Skate',
+
+          headerStyle: {
+            backgroundColor: '#000000',
+            headerTitle: (props) => <LogoTitle {...props} />,
+          }, headerTintColor: '#fff'
+        }} />
         <Stack.Screen name="Shape" component={Shape} />
         <Stack.Screen name="Trucks" component={Trucks} />
         <Stack.Screen name="Rodas" component={Rodas} />
