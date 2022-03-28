@@ -21,16 +21,20 @@ Além disso, mostramos algumas imagens de como funciona a navegação pelo nosso
 A primeira imagem é do nosso menu inicial, onde vai comportar uma barra de navegação com as outras telas do nosso projeto.
 ![menu](https://user-images.githubusercontent.com/87493055/160502409-1e5321d5-0dc0-48b4-a19d-dabb0245ab49.png)
 
-A segunda imagem é da tela direcionada pelo botão "Shapes", onde vai apresentar uma variedade de shapes de skate para que nossos clientes escolham o que julguem melhor para sua necessidade.
+A segunda imagem é da tela direcionada pelo botão "Shapes", onde vai apresentar uma variedade de shapes de skate para que nossos clientes escolham o que melhor servir para sua necessidade.
+
 ![shapes](https://user-images.githubusercontent.com/87493055/160502471-856ba94c-fadb-41a9-ad8b-471fc3dd5998.png)
 
-A terceira imagem é da tela direcionada pelo botão "Trucks", onde vai apresentar uma variedade de trucks de skate para que nossos clientes escolham o que julguem melhor para sua necessiade.
+A terceira imagem é da tela direcionada pelo botão "Trucks", onde vai apresentar uma variedade de trucks de skate para que nossos clientes escolham o que melhor servir para sua necessiade.
+
 ![trucks](https://user-images.githubusercontent.com/87493055/160502578-82e95ec3-88c3-410c-bdf8-c43eefebc2e9.png)
 
-A quarta imagem é da tela direcionada pelo botão "Rodas", onde vai apresentar uma variedade de rodas de skate para que nossos clientes escolham o que julguem melhor para sua necessiade.
+A quarta imagem é da tela direcionada pelo botão "Rodas", onde vai apresentar uma variedade de rodas de skate para que nossos clientes escolham escolham o que melhor servir para sua necessiade.
+
 ![rodas](https://user-images.githubusercontent.com/87493055/160502690-20936d53-ae51-44c6-aafa-8f3c23ea422c.png)
 
 A quinta e última imagem se refere ao nosso menu de login, onde nossos usuários poderão acessar sua conta, ou realizar um cadastro para comprar na nossa loja.
+
 ![login](https://user-images.githubusercontent.com/87493055/160502767-210244b3-f047-4ae0-b725-2aeb54d81945.png)
 
 
