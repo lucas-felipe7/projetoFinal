@@ -42,7 +42,17 @@ A quinta e última imagem se refere ao nosso menu de login, onde nossos usuário
 
 Optamos por usar cores neutras (Branco #FFFF, Bege #FAFAFA e um tom de preto #100F0F, além de tons terrosos como o marrom #7C5E5E).
 
+**Desenvolvimento do projeto**
+
+Para desenvolver o projeto, utilizamos o editor VsCode, e o aplicativo foi criado na liguagem React Native, utilizando também JavaScript. Para que o projeto seja desenvolvido, é necessário que seja feita uma configuração de ambiente, como a instalação do editor VsCode, instalação de um emulador Android (preferencialmente via Android Studio), além de uma versão do JDK, NodeJS e Chocolatey. É importante também que o usuário tenha uma configuração de hardware que suporte o funcionamento de um emulador android, com ao menos 8gb de memória ram.
+
+As dependências que utilizamos foram:
+"npm install @react-navigation/native-stack", "npm install @react-navigation/native", e "npm install react-native-screens react-native-safe-area-context".
+
+Todo desenvolvimento do projeto foi feito na mesma branch, a branch principal (main).
+
 
 **Estrutura do projeto**
 
-![estrutura](https://user-images.githubusercontent.com/87493055/158915608-ac75faca-2cea-4ef3-8707-17e9e56350e9.png)
+![estrutura](https://user-images.githubusercontent.com/87493055/160504062-e232d9b5-f8fe-4c9d-ae44-0b1a9ccb96aa.png)
+
