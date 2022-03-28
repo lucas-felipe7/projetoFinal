@@ -7,7 +7,7 @@ export default function Login({ navigation }) {
   return (
 
     <View style={[styles.container, { flexDirection: "column", }]}>
-      <StatusBar barStyle="dark-content" hidden={true}/>
+      <StatusBar barStyle="dark-content" hidden={true} />
 
       <SafeAreaView style={styles.container1}>
         <ScrollView style={styles.scrollView}>
@@ -24,13 +24,14 @@ export default function Login({ navigation }) {
                 title="ola"
                 style={styles.input}
                 placeholder="Email:"
+                
               />
               <Text style={{ paddingLeft: "65%", fontSize: 14, color: "#fff" }}>Esse é seu email?</Text>
               <Text style={{ paddingLeft: "5%", fontSize: 16, color: "#fff", marginTop: "15%", }}>Informe sua senha</Text>
               <TextInput
                 style={styles.input}
                 placeholder="Senha:"
-                keyboardType="string"
+                
               />
               <Text style={{ paddingLeft: "65%", fontSize: 14, color: "#fff" }}>Essa é sua senha?</Text>
               <View style={[{ flexDirection: "row", justifyContent: "space-around", paddingTop: 41, padding: 19, color: "#fff" }]}>
