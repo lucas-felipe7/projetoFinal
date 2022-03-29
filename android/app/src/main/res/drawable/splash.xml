@@ -2,5 +2,5 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@color/black" />
     >
-    <item android:drawable="@mipmap/logo" android:height="81dp" android:width="300dp" android:gravity="center"></item>
+    <item android:drawable="@mipmap/logo" android:height="800dp" android:width="300dp" android:gravity="center"></item>
 </layer-list>

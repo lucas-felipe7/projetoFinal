@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Button, SafeAreaView, ScrollView, StyleSheet, Image, StatusBar } from 'react-native';
+import { View, Text, Button, SafeAreaView, ScrollView, StyleSheet, Image, StatusBar, Alert } from 'react-native';
 
 
 
@@ -9,7 +9,7 @@ export default function Rodas({ navigation }) {
   );
   return (
     <View style={{ flexDirection: "column", backgroundColor: "#fff" }}>
-      <StatusBar barStyle="dark-content" hidden={true}/>
+      <StatusBar barStyle="dark-content" hidden={true} />
 
       <SafeAreaView>
         <ScrollView style={[styles.scrollView,]}>
