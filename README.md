@@ -18,7 +18,8 @@ Fizemos um wireframe mostrando o passo-a-passo do usuário no nosso aplicativo, 
 
 Além disso, mostramos algumas imagens de como funciona a navegação pelo nosso aplicativo.
 
-A primeira imagem é do nosso menu inicial, onde vai comportar uma barra de navegação com as outras telas do nosso projeto.
+A primeira imagem é do nosso menu inicial, onde vai comportar uma barra de navegação com as outras telas do nosso projeto. 
+
 ![menu](https://user-images.githubusercontent.com/87493055/160502409-1e5321d5-0dc0-48b4-a19d-dabb0245ab49.png)
 
 A segunda imagem é da tela direcionada pelo botão "Shapes", onde vai apresentar uma variedade de shapes de skate para que nossos clientes escolham o que melhor servir para sua necessidade.
